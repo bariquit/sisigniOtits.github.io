@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome Link-->
+     <script src="https://kit.fontawesome.com/01c8e33afb.js" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <section>
+
+        <nav class="navbar navbar-expand-lg navbar fixed-top">
+            <div class="container">
+            <img src="img/logo.png" alt="Logo" width="40" height="40" class="me-2 rounded">
+            <a class="navbar-brand" href="#">Sisig ni Otits</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon bg-light rounded"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#aboutUs">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contactUs">Contact Us</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </section>   
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="text-center">
+            <h1>Otis' Secret? It's in the Sizzle</h1>
+            <p>Authentic Kapampangan Sisig</p>
+            <a href="#menu" class="btn btn-outline-light">View Menu</a>
+        </div>
+    </section>
+
+    <!--Menu Section -->
+    <section id="menu">
+        <h1>Menu</h1>
+        <div class="container menu-container">
+                <div class="card mb-3" style="width: 93%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="img/background.jpg" class="img-fluid rounded-start" alt=".sisig">
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Pork Sisig</h5>
+                            <p class="card-text">Sisig ni Otits is a culinary venture dedicated to delivering authentic Pampanga-style  sisig that captures the rich, sizzling flavors beloved across the Philippines. </p>
+                            <div class="buttons">
+                                <a href="https://m.me/750672108134480" class="btn btn-outline-warning">Pre-Order now for only ₱65.00</a>
+                                <a href="https://www.facebook.com/share/1EW4bYRtsz/" class="btn btn-outline-warning">Official FB Page</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        </div> 
+    </section>
+
+    <!-- About Us Section -->
+    <section id="aboutUs" class="py-5">
+        <div class="container">
+            <!-- Text Section -->
+            <div class="row">
+            <div class="col-12 text-center">
+                <h2>About Us</h2>
+                <p>
+                Our mission is to bring the bold, savory flavors of authentic Filipino sisig to our
+                community by using fresh, quality ingredients and traditional cooking methods. As
+                students of Universal College of Parañaque, we aim to share our passion for Filipino
+                cuisine while promoting entrepreneurial skills and local culinary heritage.
+                </p>
+            </div>
+            </div>
+
+            <!-- 3 Pictures Section -->
+            <div class="row text-center mt-5">
+            <div class="col-md-4 mb-3">
+                <img src="img/grilled(2).jpg" class="img-fluid rounded shadow" alt="Picture 1">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/raw.jpg" class="img-fluid rounded shadow" alt="Picture 2">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/grilled.jpg" class="img-fluid rounded shadow" alt="Picture 3">
+            </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Contact Section -->
+    <section id="contactUs">
+        <div class="container text-center">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or inquiries, feel free to reach out!</p>
+        </div>
+
+        <div class="contact-form-container">
+            <div class="card shadow p-4 mx-auto" style="max-width: 600px;">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label fw-semibold text">Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Your full name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-semibold text">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="you@example.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label fw-semibold text">Message</label>
+                        <textarea id="message" class="form-control" rows="4" placeholder="Write your message here" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-warning w-100 fw-semibold">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Sisig ni Otits. All rights reserved.</p>
+        <p>Follow us on <a href="https://www.facebook.com/share/1CH2DQpjVd/"><i class="fa-brands fa-facebook"></i></a> <a href="https://www.instagram.com/sisigniotits_/"><i class="fa-brands fa-instagram"></i></a>    
+    </footer>   
+    
+</body>
+</html>

@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ephesis&family=Funnel+Display:wght@300..800&family=Gugi&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif !important;
+  color: #333;
+  background-color: #fff8f0;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ebdba8;
+  padding: 0.5rem 1rem; /* Added padding for better spacing */
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+.navbar-brand, .navbar-nav .nav-link { /* Combined for consistent styling */
+  color: black !important;
+  font-weight: 600;
+}
+.navbar-nav .nav-link {
+  padding-top: 0.8rem; /* Added padding for better spacing */
+  padding-bottom: 0.8rem; /* Added padding for better spacing */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+.navbar-nav .nav-link:hover {
+  color: #b69c09 !important; /* Yellow color on hover */
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(235,219,168,1)' stroke-linecap='none' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+
+/* Hero Section */
+.hero-section {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                    url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh; /* Adjusted height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+  font-family: 'Playfair Display', serif;
+}
+.hero-section h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Added text shadow for readability */
+}
+.hero-section h1, .hero-section p, #menu h1, .card-title, #aboutUs h2, #contact h2 {
+  font-family: 'Playfair Display', serif;
+}
+.hero-section {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Added text shadow for readability */
+}
+.hero-section .btn {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+.hero-section .btn:hover {
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+}
+
+/* Menu Section */
+#menu {
+  padding: 80px 20px; /* Increased padding for more space */
+  background: #f8f1e4;
+  margin-top: -50px; /* Adjusted margin to bring it closer to the hero section */
+}
+#menu h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: black;
+  text-align: center;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+.menu-container {
+    display: flex;
+    justify-content: center; /* Center the card horizontally */
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+.menu-container .card {
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+  width: 90%; /* Adjusted width for better responsiveness */
+  margin-bottom: 30px; /* Added margin-bottom for spacing if multiple cards */
+}
+.mb-3 {
+  border-radius: 3rem;
+  transition: 0.3s;
+  text-align: center;
+}
+.mb-3:hover {
+  transform: scale(1.02); /* Slightly reduced scale for a smoother effect */
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25); /* Adjusted shadow */
+}
+.menu-container .card-body {
+  padding: 2.5rem; /* Adjusted padding */
+}
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #8b4513;
+}
+.card-text {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+.buttons {
+  display: flex; /* Use flexbox for button alignment */
+  justify-content: center; /* Center buttons horizontally */
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+  gap: 10px; /* Space between buttons */
+}
+.buttons .btn {
+  border-radius: 25px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  text-decoration: none; /* Remove underline from links */
+}
+.btn-outline-warning { /* Corrected class for "Pre-Order Now" */
+  color: #d2691e;
+  border-color: #d2691e;
+  background-color: transparent;
+}
+.btn-outline-warning:hover {
+  background-color: #d2691e;
+  color: white;
+  border-color: #d2691e;
+}
+.btn-warning { /* Corrected class for "Official Store" */
+  background-color: #8b4513;
+  color: #000;
+  border-color: #8b4513;
+}
+.btn-warning:hover {
+  background-color: #e6c200;
+  color: #000;
+  border-color: #e6c200;
+}
+
+/* About Us */
+#aboutUs {
+ background-color: #ebdba8;
+  padding: 80px 20px; /* Increased padding */
+  font-family: 'Playfair Display', serif;
+}
+#aboutUs h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+#aboutUs p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 2rem;
+  color: black;
+}
+.about-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contact Us */
+#contactUs {
+  padding: 80px 20px; /* Increased padding */
+  font-family: 'Playfair Display', serif;
+  background-color: #f8f1e4;
+}
+#contactUs h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  color: black;
+  margin-bottom: 15px;
+}
+#contactUs p {
+  font-size: 1.1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Footer */
+footer {
+  padding: 80px 20px;
+  background-color: #ebdba8;
+  color: black;
+  padding: 30px 0; /* Increased padding */
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: 'Playfair Display', serif;
+}
+footer p {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+  .hero-section .description {
+    font-size: 1.2rem;
+  }
+  #menu h1 {
+    font-size: 2.5rem;
+  }
+  .menu-container .card {
+    width: 100%; /* Full width on smaller screens */
+  }
+  .menu-container .card .row.g-0 {
+    flex-direction: column; /* Stack image and text vertically */
+  }
+  .menu-container .card .col-md-4,
+  .menu-container .card .col-md-8 {
+    width: 100%;
+  }
+  .menu-container .card img {
+    border-radius: 20px 20px 0 0 !important; /* Adjust border-radius for stacked image */
+  }
+  .menu-container .card-body {
+    text-align: center; /* Center text in card body */
+  }
+  .buttons {
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center stacked buttons */
+  }
+  .buttons .btn {
+    width: 80%; /* Make buttons wider */
+  }
+  #aboutUs h2, #contact h2 {
+    font-size: 2rem;
+  }
+  #aboutUs p, #contact p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  .hero-section .description {
+    font-size: 1rem;
+  }
+  #menu h1 {
+    font-size: 2rem;
+  }
+  .buttons .btn {
+    width: 90%;
+  }
+}
